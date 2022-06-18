@@ -1,0 +1,12 @@
+/* C Program to identify ASCII Value of a Character */
+#include <stdio.h>
+int main()
+{
+  char a;
+  
+  printf("Kindly insert any character = ");
+  scanf("%c",&a);
+  
+  printf("\nThe ASCII value of inserted character = %d",a);
+  return 0;
+}
